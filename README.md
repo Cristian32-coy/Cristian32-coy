@@ -56,7 +56,7 @@ API REST modular para tienda online con múltiples pasarelas de pago y almacenam
 
 **Stack:** `NestJS v11` `Prisma v6` `PostgreSQL 16` `Redis 7` `BullMQ` `Webpay` `MercadoPago` `Stripe` `AWS S3 + CloudFront` `Redlock` `Docker`
 
-- 3 pasarelas de pago integradas: MercadoPago, Webpay (Transbank) y Stripe
+- 3 pasarelas de pago integradas: MercadoPago
 - Distributed locking con Redlock para operaciones críticas de inventario — cero condiciones de carrera
 - Autenticación por cookie httpOnly + Bearer fallback con Helmet y CSP configurado
 - Upload, redimensionado y distribución de imágenes vía AWS S3 + CloudFront
